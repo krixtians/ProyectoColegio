@@ -3,10 +3,11 @@ package com.ciaf.colegio;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import javax.swing.*;
+@SpringBootApplication
+public class ProyectoColegioApplication {
 
-@SpringBootApplication{
-    public static void main(String[] arg){
+    public static void main(String[] args) {
         SpringApplication.run(ProyectoColegioApplication.class, args);
     }
+
 }
